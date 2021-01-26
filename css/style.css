@@ -1,0 +1,203 @@
+body{
+    background: #1673E7;
+}
+
+.error{
+    width: 100%;
+    display: block;
+    color: red;
+    font-size: 14px;
+}
+
+.nm-form-body{
+    background: #fff;
+    width: 53%;
+    padding: 50px 100px;
+    margin: 50px auto;
+}
+.nm-step{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid #8BB9F3;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 15px;
+    padding: 0px 10px;
+}
+
+#nmStepThreeSbtBtn,
+#nmStepSubmit{
+    float: right;
+}
+
+.nm-step p{
+    text-align: right;
+    margin-bottom: 0px;
+    color: #aaa;
+}
+
+.nm-step h4{
+    text-align: center;
+    font-size: 18px;
+    color: #aaa;
+    font-weight: 500;
+    
+}
+.nm-step:first-child{
+    margin-left: 0px;
+}
+.nm-step-active{
+    background: #1673E7;
+    color: red;
+}
+.nm-step-active p, .nm-step-active h4{
+    color: #fff;
+}
+
+.nm-welcome{
+    margin-top: 50px;
+    color: #161616;
+}
+
+.nm-border{
+    width: 10%;
+    height: 3px;
+    background: #1673E7;
+    margin-bottom: 20px;
+}
+
+.nm-label{
+    font-size: 18px;
+    color: #161616;
+    font-weight: 400;
+}
+
+.nm-input{
+    margin-top: 15px;
+}
+.nm-input input,
+.nm-input select{
+    font-size: 18px;
+    border: 1px solid #e6e5e5;
+    border-radius: 0px 10px 10px 0px !important;
+    border-left: none;
+    background: #fff;
+    padding-left: 5px;
+    height: 50px;
+
+}
+
+.nm-input input::placeholder{
+    font-size: 18px;
+    color: #b3acac;
+}
+ .nm-input input:focus{
+    border: 1px solid #8BB9F3;
+    box-shadow: none;
+    border-left: none;
+}
+
+.nm-input select:focus {
+    border: 1px solid #8BB9F3;
+    box-shadow: none;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color:transparent !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.nm-input input::-webkit-outer-spin-button,
+.nm-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.nm-input input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.nm-input-icon{
+    border: 1px solid #e6e5e5;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px !important;
+    background: #fff !important;
+}
+.nm-input-icon-bg-transparent{
+    background: transparent !important;
+}
+.nm-input-icon-jq{
+    border-color: #7e7b7b !important;
+}
+.nm-input-icon i{
+    font-size: 22px;
+}
+
+.nm-input-img{
+    width: 35px;
+    margin-left: -5px;
+}
+
+.nm-cash-sing{
+    position: absolute;
+    top: 17px;
+    left: 56px;
+    z-index: 1;
+    font-size: 17px;
+    display: none;
+}
+
+/* #nmCash, #nmSell, #nmSellConUSD{
+    padding-left: 17px;
+} */
+#nmCash:focus{
+    background: transparent !important;
+}
+
+#nmCash:active{
+    background: transparent !important;
+}
+
+.nm-btn-sbt{
+    background: #1673E7;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 10px 80px;
+    border-radius: 10px;
+    transition: .2s;
+}
+.nm-btn-sbt:hover{
+    color: #fff;
+    background: #171717;
+}
+
+@media only screen and (max-width:1030px){
+    .nm-form-body{
+        width: 96%;
+        padding: 30px 20px;
+        margin: 50px auto 20px;
+    }
+}
+
+@media only screen and (max-width:390px){
+    .nm-step h4 {
+        font-size: 10px;
+    }
+    .nm-step {
+        margin-left: 0px;
+    }
+
+    .nm-btn-sbt {
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+}
+
+
+
+
+
+
