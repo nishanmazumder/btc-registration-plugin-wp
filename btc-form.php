@@ -185,7 +185,7 @@ function btc_user_form()
                         <label for="nmCash" class="form-label nm-label">Cashout Amount (BTC)</label>
                         <div class="input-group">
                             <span class="input-group-text nm-input-icon" id="nm-f-i-1"><img class="nm-input-img"
-                                    src="img/bitcoin-ico.png" alt=""></span>
+                                    src="<?php echo plugins_url('img/', __FILE__)?>bitcoin-ico.png" alt=""></span>
                             <input type="number" step="any" name="nmCash" id="nmCash" class="form-control"
                                 placeholder="Cashout Amount" aria-label="nmCash" aria-describedby="nm-f-i-1" required>
                         </div>
@@ -223,9 +223,9 @@ function btc_user_form()
                                 <label for="nmSell" class="form-label nm-label">Sell Amount</label>
                                 <div class="input-group">
                                     <span class="input-group-text nm-input-icon" id="nm-f-i-1"><img class="nm-input-img"
-                                            src="img/bitcoin-ico.png" alt=""></span>
+                                            src="<?php echo plugins_url('img/', __FILE__)?>bitcoin-ico.png" alt=""></span>
                                     <input type="text" name="nmSell" id="nmSell" class="form-control"
-                                        aria-label="nmSell" aria-describedby="nm-f-i-1" value="$(" #nmCash").val();"
+                                        aria-label="nmSell" aria-describedby="nm-f-i-1"
                                         disabled>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@ function btc_user_form()
                                 <label for="nmSellConUSD" class="form-label nm-label">Receive Amount</label>
                                 <div class="input-group">
                                     <span class="input-group-text nm-input-icon" id="nm-f-i-1"><img class="nm-input-img"
-                                            src="img/usd-ico.jpg" alt=""></span>
+                                            src="<?php echo plugins_url('img/', __FILE__)?>usd-ico.jpg" alt=""></span>
                                     <input type="text" name="nmSellConUSD" id="nmSellConUSD" class="form-control"
                                         aria-label="nmSellConUSD" aria-describedby="nm-f-i-1" disabled>
                                     <input type="hidden" name="nmSellConUSDh" id="nmSellConUSDh">
