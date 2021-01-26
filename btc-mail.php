@@ -57,13 +57,13 @@ function nm_session_data($info)
 function nm_mail_send()
 {
     // Mail Details
-    $to = 'arosh019@gmail.com';
-    $subject = 'This email came from the site!';
-
+    $to = $_SESSION['nmMail'];
+    $subject = 'New User Registration';
+    $cc = get_option('admin_email');
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= 'From: <fromTEST@gmail.com>' . "\r\n";
-    $headers .= 'Cc: designland019@gmail.com' . "\r\n";
+    $headers .= 'From: <'.$cc.'>' . "\r\n";
+    $headers .= 'Cc: '.$cc.''. "\r\n";
 
     $message = '<html><body>';
 
