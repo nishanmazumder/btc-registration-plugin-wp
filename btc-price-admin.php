@@ -96,7 +96,7 @@ function nm_btc_current_price()
 {
     global $wpdb;
     $btc_val = $wpdb->get_row("SELECT * FROM wp_btc_value"); ?>
-    ?>
+
     <script>
         jQuery(document).ready(function($) {
 
