@@ -2,13 +2,13 @@
 
 /**
  * Plugin Name:       BTC Price
- * Plugin URI:        https://www.bdsoftcreation.com/
+ * Plugin URI:        https://www.nishanmazumder.com/
  * Description:       BTC-Price will update the current btc value
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            BDSOFTcr
- * Author URI:        https://www.bdsoftcreation.com/
+ * Author URI:        https://www.nishanmazumder.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       btc-price-text-domain
